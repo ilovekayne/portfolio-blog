@@ -1,0 +1,140 @@
+# Site
+repository: ilovekayne/portfolio-blog
+remote_theme: sproogen/modern-resume-theme
+url: "https://portfolio.ilovekayne.xyz"
+plugins:
+  - jekyll-remote-theme
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Kayne
+title: Chief Awesomeness Officer | Incident Responder | Professional Calm Person
+website: https://ilovekayne.xyz
+website_title: Fan Club
+
+darkmode: true
+
+github_username: ilovekayne
+
+additional_links:
+  - title: All The Kayne Blogs
+    icon: fas fa-heart
+    url: https://blogs.ilovekayne.xyz
+
+# About Section
+about_title: Professional Summary
+about_content: |
+  Results driven, kindness forward cybersecurity professional with **∞ years** of experience being the person everyone wants on their team.
+
+  Proven track record of staying calm while everything is on fire, turning chaos into timelines, and making new people feel welcome on day one. Seeking a role where I can continue to be extremely Kayne.
+
+  <mark>Note to recruiters:</mark> this resume is a loving parody written by his fans. The real Kayne is somehow even more impressive.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: The Entire Club
+        sub_title: Chief Awesomeness Officer
+        caption: Forever - Present
+        quote: >
+          An organization that would be noticeably worse without him.
+        description: |
+          - Increased club morale by 400% (self-reported, by everyone)
+          - Answered approximately 12,000 questions without sighing once
+          - Maintained 100% uptime on kindness
+      - layout: left
+        title: Incident Response (Whenever Something Is On Fire)
+        sub_title: Lead Calm Person
+        caption: Every Incident - Present
+        description: |
+          - Reduced average panic per incident from "a lot" to "zero"
+          - Built timelines so clean other teams asked for the template
+          - Has never once called `panic()` in production
+      - layout: left
+        title: Student Government
+        sub_title: Person Who Actually Gets Things Done
+        caption: Several Semesters - Present
+        description: |
+          - Ran meetings that ended **on time**, a first in recorded history
+          - Turned budget meetings from "where ideas go to die" into "where ideas get funded"
+          - Revisited every parking lot item, as promised
+      - layout: left
+        title: Club Discord
+        sub_title: Unofficial 24/7 Help Desk
+        caption: Midnight - 3 AM, Most Nights
+        description: |
+          - Median response time in #help: 4 minutes
+          - Moderated with a gentle but terrifying "hey, let's keep it cool"
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Operation Crush (Defensive Engagement)
+        link: https://hacker.ilovekayne.xyz
+        link_text: hacker.ilovekayne.xyz
+        quote: >
+          Successfully defended against five consecutive "attacks" by a crew of admirers.
+        description: |
+          Detected a phishing attempt in 4 seconds, deflected a brute force of compliments, and eventually handed over his secrets because they just asked nicely.
+      - layout: left
+        title: Zero Mistakes Audit
+        link: https://mistakes.ilovekayne.xyz
+        link_text: mistakes.ilovekayne.xyz
+        description: |
+          Subject of an independent, months-long audit. Findings: 0 mistakes. The auditors are still emotionally recovering.
+      - layout: left
+        title: Kayne Docs
+        link: https://docs.ilovekayne.xyz
+        link_text: docs.ilovekayne.xyz
+        description: |
+          The only human with a full API reference. `kayne.help(person)` has a 100% success rate.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: The School of Showing Up
+        sub_title: Doctorate in Being Reliable
+        caption: Every Single Day
+        description: |
+          Graduated summa cum laude. Thesis: *"Future Me Is a Teammate Too: Notes on Writing Documentation."*
+      - layout: top-right
+        title: Cyber@Stout
+        sub_title: BS in Breaking (and Fixing) Things
+        caption: Ongoing
+        quote: >
+          Where he taught at least as much as he learned.
+
+  - title: Skills
+    layout: text
+    content: |
+      **Technical:** Threat hunting, malware analysis, log reading (for fun), packet captures, Linux, YARA, MITRE ATT&CK (possibly memorized), fixing the printer by looking at it
+
+      **Leadership:** Running meetings, event planning, budget wrangling, recruiting, mentoring, keeping a straight face during tabletop exercises
+
+      **Soft skills:** Patience (∞), kindness (∞), explaining things without making anyone feel dumb (∞)
+
+      **Languages:** English, Bash, Python, and fluent "it's always DNS"
+
+  - title: References
+    layout: text
+    content: |
+      > "He fixed my code without touching my keyboard." **A grateful club member**
+
+      > "We tried to find a mistake. We could not." **The Mistake Auditors**
+
+      > "Phishing him did not work. Asking him did." **The crew, hacker.ilovekayne.xyz**
+
+      > "We love him." **Literally everyone**
+
+footer_show_references: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
